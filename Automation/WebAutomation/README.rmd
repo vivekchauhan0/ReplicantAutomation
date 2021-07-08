@@ -1,0 +1,21 @@
+To run the Web Automation
+
+UBUNTU
+run this from command line
+
+export PYTHONPATH=.
+/usr/bin/python3.8 mainWebTestRunner.py --MITM True --POST_DATA False --HEADLESS False
+
+Install Chrome
+
+Ubuntu
+#############################################################################
+Command Line Version
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+https://askubuntu.com/questions/510056/how-to-install-google-chrome
+
+Please make sure Chrome-Chrome Drivers are same
+Please make sure FireFox-Gecko Drivers are same
+
+##############################################################################
